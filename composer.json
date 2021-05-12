@@ -1,0 +1,38 @@
+{
+  "name": "vendor/structure",
+  "description": "A Framework structure",
+  "keywords": ["framework", "structure"],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Douglas Nascimento da Silva",
+      "email": "michaeldnascimento@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">= 7.0",
+    "google/apiclient": "v2.9.1",
+    "sinergi/browser-detector": "dev-master",
+    "vlucas/phpdotenv": "v5.3.0",
+    "verot/class.upload.php": "dev-master"
+  },
+  "require-dev": {
+    "szakalq/php-i18n": "dev-master",
+    "respect/validation": "2.2.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+        "App\\": "app/"
+    },
+    "files": [
+        "app/Helpers/functions.php"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
