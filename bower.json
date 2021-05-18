@@ -1,0 +1,33 @@
+{
+  "name": "structure",
+  "description": "Estrutura para os sistemas",
+  "version": "1.0.0",
+  "authors": [
+    "Michael Douglas N. Da Siva <michaeldnascimento@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "jquery.maskedinput": "^1.4.1",
+    "jquery-mask-plugin": "^1.14.15",
+    "jquery.maskmoney": "^3.0.2",
+    "bootstrap3-dialog": "bootstrap-dialog#^1.35.3",
+    "toastr": "^2.1.3",
+    "owl.carousel": "^2.2.1",
+    "bootstrap": "5.0.0",
+    "highcharts": "9.1.0",
+    "font-awesome": "5.15.3"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "breakpoint-sass": "^2.7.0",
+    "sass-flex-mixin": "^1.0.3"
+  }
+}

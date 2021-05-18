@@ -1,0 +1,34 @@
+/***********************************************************
+******************** BootStrap dialog **********************
+***********************************************************/
+.modal-header {
+    text-align: center;
+}
+
+.bootstrap-dialog-title h4, .bootstrap-dialog-close-button .close {
+    font-size: 30px !important;
+    color: #fff;
+    display: block;
+}
+
+.bootstrap-dialog-message {
+    font-size: 18px !important;
+}
+
+.modal-header {
+    &.bootstrap-dialog-draggable {
+        cursor: move;
+    }
+
+    .h4, .h5, .h6 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: inherit;
+    }
+}

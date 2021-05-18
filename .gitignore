@@ -4,3 +4,4 @@
 composer.lock
 composer.phar
 .env
+/public/bower_components

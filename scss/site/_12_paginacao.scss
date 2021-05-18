@@ -1,0 +1,17 @@
+/****************************************************
+******************** Paginacao **********************
+****************************************************/
+.pagination > {
+    li {
+        a, span, a:hover, span:hover, a:focus, span:focus {
+            color: $template-color;
+        }
+    }
+
+    .active {
+        a, span, a:hover, span:hover, a:focus, span:focus {
+            border-color: $template-color;
+            background-color: $template-color;
+        }
+    }
+}

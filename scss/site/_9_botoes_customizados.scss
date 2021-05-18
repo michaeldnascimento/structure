@@ -1,0 +1,354 @@
+/*****************************************************
+*************** Botoes Customizados ******************
+*****************************************************/
+.btn-sucess {
+    border-color: #006748;
+    background-color: #006748;
+    color: #fff;
+
+    &:hover, &:focus, &:active, &.active {
+        border-color: #006748;
+        background-color: #006748;
+        color: #000;
+    }
+}
+
+.btn-link {
+    color: #006748;
+}
+
+.btn-facebook {
+    color: #fff !important;
+    background-color: #4863ae;
+
+    &:hover {
+        background-color: #445fa4;
+    }
+}
+
+.btn-twitter {
+    color: #fff !important;
+    background-color: #46c0fb;
+
+    &:hover {
+        background-color: #33bafb;
+    }
+}
+
+.btn-google-plus {
+    color: #fff !important;
+    background: #d64937;
+
+    &:hover {
+        background: #d1412c;
+    }
+}
+
+.btn-youtube {
+    color: #fff !important;
+    background: #ff0000;
+
+    &:hover {
+        background: #e80000;
+    }
+}
+
+.btn-vimeo {
+    color: #fff !important;
+    background: #00a2cd;
+
+    &:hover {
+        background: #0093b7;
+    }
+}
+
+.btn-android {
+    color: #fff !important;
+    background: #a4c639;
+
+    &:hover {
+        background: #97b834;
+    }
+}
+
+.btn-linkedin {
+    color: #fff !important;
+    background: #0083bb;
+
+    &:hover {
+        background-color: #0076a8;
+    }
+}
+
+.btn-pinterest {
+    color: #fff !important;
+    background: #c91618;
+
+    &:hover {
+        background-color: #b31313;
+    }
+}
+
+.btn-flickr {
+    color: #fff !important;
+    background: #ff0084;
+
+    &:hover {
+        background-color: #e60078;
+    }
+}
+
+.btn-tumblr {
+    color: #fff !important;
+    background: #374a61;
+
+    &:hover {
+        background-color: #2f3f53;
+    }
+}
+
+.btn-skype {
+    color: #fff !important;
+    background: #00b6f3;
+
+    &:hover {
+        background-color: #00a3d9;
+    }
+}
+
+.btn-stackoverflow {
+    color: #fff !important;
+    background: #f49336;
+
+    &:hover {
+        background-color: #f28415;
+    }
+}
+
+.btn-instagram {
+    color: #fff !important;
+    background: #3f729b;
+
+    &:hover {
+        background-color: #386589;
+    }
+}
+
+.btn-dribbble {
+    color: #fff !important;
+    background: #ea4c89;
+
+    &:hover {
+        background-color: #e93f7e;
+    }
+}
+
+.btn-rss {
+    color: #fff !important;
+    background: #ff7f25;
+
+    &:hover {
+        background-color: #fd6b00;
+    }
+}
+
+/*************************************************************
+********************** BOTOES SOCIAIS ************************
+*************************************************************/
+
+a.social {
+    display:inline-block; 
+    width:38px; 
+    height:38px; 
+    line-height:38px; 
+    font-size:18px; 
+    text-align:center; 
+    background:rgba(0,0,0,0.3); 
+    color:#fff; 
+    margin:10px 1px; 
+    text-decoration:none;
+
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.fa-facebook {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f09a";
+    }
+
+    &:hover {
+        background:#3b5997!important;
+        color:#fff!important;
+    }
+}
+
+.fa-instagram {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f16d";
+    }
+
+    &:hover {
+        background:#3f729b !important;
+        color:#fff! important;
+    }
+}
+
+.fa-twitter {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f099";
+    }
+
+    &:hover{
+        background:#41b7d8!important;
+        color:#fff!important; 
+    }
+}
+
+.fa-google-plus {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f0d5";
+    }
+
+    &:hover {
+        background:#d64937!important;
+        color:#fff!important; 
+    }
+}
+
+.fa-linkedin {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f0e1";
+    }
+
+    &:hover {
+        background:#0073b2!important; 
+        color:#fff!important; 
+    }
+}
+
+.fa-vimeo {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f27d";
+    }
+
+    &:hover {
+        background:#388fc5!important;
+        color:#fff!important; 
+    }
+}
+
+.fa-youtube-play {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f16a";       
+    }
+
+    &:hover {
+        background:#A40F09!important;
+        color:#fff!important; 
+    }
+}
+
+.fa-flickr {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f16e";
+    }
+
+    &:hover {
+        background:#ff0084!important;
+        color:#fff!important;
+    }
+}
+
+.fa-pinterest {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f0d2";
+    }
+
+    &:hover {
+        background:#cb2027!important;
+        color:#fff!important; 
+    }
+}
+
+.fa-skype {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f17e";
+    }
+
+    &:hover {
+        background:#00aff0!important; 
+        color:#fff!important; 
+    }
+}
+
+.fa-rss {
+    &:before {
+        font-family: "fontawesome";
+        content: "\f09e";
+    }
+
+    &:hover {
+        background:#e0812a!important;
+        color:#fff!important; 
+    }
+}
+
+.default {
+    &:hover {
+        background:#37353A!important; 
+        color:#fff!important; 
+    }
+}
+
+.rounded {
+    width:38px;
+    height:38px;
+    line-height:38px; 
+}
+
+/*************************************************************
+******************** Botao para o topo ***********************
+*************************************************************/
+#toTop {
+    background-color: #333;
+    border-radius: 4px 4px 0 0;
+    color: #FFF;
+    position: fixed;
+    height: 35px;
+    width: 48px;
+    right: 6px;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.9;
+    padding-top: 7px;
+    text-decoration: none;
+    display: none;
+    z-index: 1000;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+
+    &:before {
+        font-family: "fontawesome";
+        content: "\f077";
+    }
+
+    &:hover {
+        background-color: #006748;
+    }
+}

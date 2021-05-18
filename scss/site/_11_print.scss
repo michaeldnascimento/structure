@@ -1,0 +1,13 @@
+@media print {
+    #topBar, #navBar, #topNav, #footer, #header, .sticky-container {
+        visibility: hidden !important;
+    }
+    
+    .print * {
+        visibility: visible !important;
+    }
+    
+    .no-print * {
+        visibility: hidden !important;
+    }
+}

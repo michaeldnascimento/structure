@@ -1,0 +1,171 @@
+/*****************************************************
+*************** Botoes Customizados ******************
+*****************************************************/
+.btn-facebook {
+    color: #fff !important;
+    background-color: #4863ae;
+
+    &:hover {
+        background-color: #445fa4;
+    }
+}
+
+.btn-twitter {
+    color: #fff !important;
+    background-color: #46c0fb;
+
+    &:hover {
+        background-color: #33bafb;
+    }
+}
+
+.btn-google-plus {
+    color: #fff !important;
+    background: #d64937;
+
+    &:hover {
+        background: #d1412c;
+    }
+}
+
+.btn-youtube {
+    color: #fff !important;
+    background: #ff0000;
+
+    &:hover {
+        background: #e80000;
+    }
+}
+
+.btn-vimeo {
+    color: #fff !important;
+    background: #00a2cd;
+
+    &:hover {
+        background: #0093b7;
+    }
+}
+
+.btn-android {
+    color: #fff !important;
+    background: #a4c639;
+
+    &:hover {
+        background: #97b834;
+    }
+}
+
+.btn-linkedin {
+    color: #fff !important;
+    background: #0083bb;
+
+    &:hover {
+        background-color: #0076a8;
+    }
+}
+
+.btn-pinterest {
+    color: #fff !important;
+    background: #c91618;
+
+    &:hover {
+        background-color: #b31313;
+    }
+}
+
+.btn-flickr {
+    color: #fff !important;
+    background: #ff0084;
+
+    &:hover {
+        background-color: #e60078;
+    }
+}
+
+.btn-tumblr {
+    color: #fff !important;
+    background: #374a61;
+
+    &:hover {
+        background-color: #2f3f53;
+    }
+}
+
+.btn-skype {
+    color: #fff !important;
+    background: #00b6f3;
+
+    &:hover {
+        background-color: #00a3d9;
+    }
+}
+
+.btn-stackoverflow {
+    color: #fff !important;
+    background: #f49336;
+
+    &:hover {
+        background-color: #f28415;
+    }
+}
+
+.btn-instagram {
+    color: #fff !important;
+    background: #3f729b;
+
+    &:hover {
+        background-color: #386589;
+    }
+}
+
+.btn-dribbble {
+    color: #fff !important;
+    background: #ea4c89;
+
+    &:hover {
+        background-color: #e93f7e;
+    }
+}
+
+.btn-rss {
+    color: #fff !important;
+    background: #ff7f25;
+
+    &:hover {
+        background-color: #fd6b00;
+    }
+}
+
+/*************************************************************
+******************** Botao para o topo ***********************
+*************************************************************/
+#toTop {
+    background-color: #333;
+    border-radius: 4px 4px 0 0;
+    color: #FFF;
+    position: fixed;
+    height: 35px;
+    width: 48px;
+    right: 6px;
+    bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.9;
+    padding-top: 7px;
+    text-decoration: none;
+    display: none;
+    z-index: 1000;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+
+    &:before {
+        font-family: "fontawesome";
+        content: "\f077";
+    }
+
+    &:hover {
+        background-color: #006748;
+    }
+}

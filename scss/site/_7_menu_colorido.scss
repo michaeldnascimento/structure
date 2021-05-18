@@ -1,0 +1,162 @@
+// MENU COLORIDO
+#topNav ul.nav > li {
+    width: 20%;
+    
+    &.active2 > {
+        
+        a:before {
+            content: ' ';
+            background-color: #BA0C2F;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #BA0C2F;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #BA0C2F;
+            }
+        }
+    }
+
+    &.active3 > {
+        a:before {
+            content: ' ';
+            background-color: #FF9E1B;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #FF9E1B;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #FF9E1B;
+            }
+        }
+    }
+
+    &.active4 > {
+        a:before {
+            content: ' ';
+            background-color: #A39382;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #A39382;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #A39382;
+            }
+        }
+    }
+
+    &.active5 > {
+        a:before {
+            content: ' ';
+            background-color: #004F71;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #004F71;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #004F71;
+            }
+        }
+    }
+
+    &.active6 > {
+        a:before {
+            content: ' ';
+            background-color: #00C7B1;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #00C7B1;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #00C7B1;
+            }
+        }
+    }
+
+    &.active7 > {
+        a:before {
+            content: ' ';
+            background-color: #6A2A5B;
+            height: 5px;
+            width: 100%;
+            left: 0;
+            top: 40px;
+            position: absolute;
+        }
+
+        ul > li {
+            > {
+                a:hover, ul > li > a:hover {
+                    background-color: #6A2A5B;
+                }
+            }
+
+            &:hover > a {
+                color: #fff !important;
+                background-color: #6A2A5B;
+            }
+        }
+    }
+}
+
+//@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 990px) {
+    #topNav ul.nav > li {
+        width: 100%;
+    }
+}

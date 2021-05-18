@@ -1,0 +1,63 @@
+html {
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+}
+
+body {
+    min-height: 100%;
+    color: #666;
+    background-color: #fff;
+    margin: 0;
+    padding: 0 !important;
+}
+
+section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &.alternate {
+        background-color: #F5F3F4;
+
+        .divider .fa {
+            background-color: #F5F3F4;
+        }
+    }
+}
+
+input {
+    &[type="color"], &[type="email"], &[type="number"], &[type="password"], &[type="tel"], &[type="url"], &[type="text"] {
+        margin-bottom: 10px;
+    }
+}
+
+.form-group input {
+    margin: 0;
+}
+
+#header.sticky {
+    display: block;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    &.affix {
+        #topBar {
+            display: none;
+        }
+
+        &.has-slider {
+            top: 0;
+            margin-top: 0 !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #header.sticky #topNav {
+        max-height: 300px;
+        overflow-y: auto;
+        width: 100%;
+    }
+}
